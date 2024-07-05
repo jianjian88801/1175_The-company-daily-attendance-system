@@ -1,0 +1,268 @@
+package com.entity.model;
+
+import com.entity.YuangongEntity;
+
+import com.baomidou.mybatisplus.annotations.TableName;
+import java.util.Date;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import java.io.Serializable;
+ 
+
+/**
+ * 员工
+ * 接收传参的实体类  
+ *（实际开发中配合移动端接口开发手动去掉些没用的字段， 后端一般用entity就够用了） 
+ * 取自ModelAndView 的model名称
+ * @author 
+ * @email 
+ * @date 2021-05-20 16:37:02
+ */
+public class YuangongModel  implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	 			
+	/**
+	 * 密码
+	 */
+	
+	private String mima;
+		
+	/**
+	 * 员工姓名
+	 */
+	
+	private String yuangongxingming;
+		
+	/**
+	 * 性别
+	 */
+	
+	private String xingbie;
+		
+	/**
+	 * 年龄
+	 */
+	
+	private String nianling;
+		
+	/**
+	 * 联系电话
+	 */
+	
+	private String lianxidianhua;
+		
+	/**
+	 * 邮箱
+	 */
+	
+	private String youxiang;
+		
+	/**
+	 * 部门
+	 */
+	
+	private String bumen;
+		
+	/**
+	 * 个人职位
+	 */
+	
+	private String gerenzhiwei;
+		
+	/**
+	 * 在职情况
+	 */
+	
+	private String zaizhiqingkuang;
+		
+	/**
+	 * 图片
+	 */
+	
+	private String tupian;
+		
+	/**
+	 * 家庭住址
+	 */
+	
+	private String jiatingzhuzhi;
+				
+	
+	/**
+	 * 设置：密码
+	 */
+	 
+	public void setMima(String mima) {
+		this.mima = mima;
+	}
+	
+	/**
+	 * 获取：密码
+	 */
+	public String getMima() {
+		return mima;
+	}
+				
+	
+	/**
+	 * 设置：员工姓名
+	 */
+	 
+	public void setYuangongxingming(String yuangongxingming) {
+		this.yuangongxingming = yuangongxingming;
+	}
+	
+	/**
+	 * 获取：员工姓名
+	 */
+	public String getYuangongxingming() {
+		return yuangongxingming;
+	}
+				
+	
+	/**
+	 * 设置：性别
+	 */
+	 
+	public void setXingbie(String xingbie) {
+		this.xingbie = xingbie;
+	}
+	
+	/**
+	 * 获取：性别
+	 */
+	public String getXingbie() {
+		return xingbie;
+	}
+				
+	
+	/**
+	 * 设置：年龄
+	 */
+	 
+	public void setNianling(String nianling) {
+		this.nianling = nianling;
+	}
+	
+	/**
+	 * 获取：年龄
+	 */
+	public String getNianling() {
+		return nianling;
+	}
+				
+	
+	/**
+	 * 设置：联系电话
+	 */
+	 
+	public void setLianxidianhua(String lianxidianhua) {
+		this.lianxidianhua = lianxidianhua;
+	}
+	
+	/**
+	 * 获取：联系电话
+	 */
+	public String getLianxidianhua() {
+		return lianxidianhua;
+	}
+				
+	
+	/**
+	 * 设置：邮箱
+	 */
+	 
+	public void setYouxiang(String youxiang) {
+		this.youxiang = youxiang;
+	}
+	
+	/**
+	 * 获取：邮箱
+	 */
+	public String getYouxiang() {
+		return youxiang;
+	}
+				
+	
+	/**
+	 * 设置：部门
+	 */
+	 
+	public void setBumen(String bumen) {
+		this.bumen = bumen;
+	}
+	
+	/**
+	 * 获取：部门
+	 */
+	public String getBumen() {
+		return bumen;
+	}
+				
+	
+	/**
+	 * 设置：个人职位
+	 */
+	 
+	public void setGerenzhiwei(String gerenzhiwei) {
+		this.gerenzhiwei = gerenzhiwei;
+	}
+	
+	/**
+	 * 获取：个人职位
+	 */
+	public String getGerenzhiwei() {
+		return gerenzhiwei;
+	}
+				
+	
+	/**
+	 * 设置：在职情况
+	 */
+	 
+	public void setZaizhiqingkuang(String zaizhiqingkuang) {
+		this.zaizhiqingkuang = zaizhiqingkuang;
+	}
+	
+	/**
+	 * 获取：在职情况
+	 */
+	public String getZaizhiqingkuang() {
+		return zaizhiqingkuang;
+	}
+				
+	
+	/**
+	 * 设置：图片
+	 */
+	 
+	public void setTupian(String tupian) {
+		this.tupian = tupian;
+	}
+	
+	/**
+	 * 获取：图片
+	 */
+	public String getTupian() {
+		return tupian;
+	}
+				
+	
+	/**
+	 * 设置：家庭住址
+	 */
+	 
+	public void setJiatingzhuzhi(String jiatingzhuzhi) {
+		this.jiatingzhuzhi = jiatingzhuzhi;
+	}
+	
+	/**
+	 * 获取：家庭住址
+	 */
+	public String getJiatingzhuzhi() {
+		return jiatingzhuzhi;
+	}
+			
+}
